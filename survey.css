@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, tt, var, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: silver;
+}
+
+.top{
+	position: fixed;
+	margin-top: -60px;
+	width: 100%;
+	height: 60px;
+	background-color: yellow;
+}
+
+#survey-form{
+	margin: 0px 50px 50px 50px;
+}
+
+#description{
+	background-color: #00DFFF;
+}
+
+.frame-wrap{
+	background-color: gray;
+	margin: 50px 0px 0px 0px;
+}
+
+.center-text{
+	text-align: center;
+	padding: 10px 0px;
+	background-color: gray;
+}
+
+.container{
+	width: auto;
+	height: 60px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+.left-side{
+	padding-left: 5%;
+	text-align: right;
+	float: left;
+}
+
+.right-side{
+	width: 50%;
+	float: right;
+}
+
+label{
+	padding-right: 10px;
+	font-size: 110%;
+}
+
+.left-header{
+	padding-top: 20px;
+	padding-left: 5px;
+	float: left;
+}
+
+.right-header{
+	padding-top: 20px;
+	padding-right: 5px;
+	float: right;
+}
+
+.radio-left{
+	padding-top: 15px;
+}
+
+
+#train-dur{
+	height: 140px;
+}
+
+.checkbox{
+	height: 200px;
+}
+
+#radio-button{
+	padding-left: -100px;
+}
+
+#submit{
+	margin-left: 48%;
+	background-color: #00AAFF;
+	border-color: #00AAFF;
+}
+
+#submit:hover{
+	background-color: #00FFFF;
+}
+
+.row{
+	min-height: 30px;
+	max-height: 200px;
+	background-color: #00DFFF;
+}
+
+#textbot{
+	height: 100px;
+}
+
+.footer{
+	margin-top: 650px;
+	padding-left: 5px;
+	background-color: white;
+}
+
+#title{
+	background-color: green;
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+.but_like:hover{
+	background-color: orange;
+}
+
+.but_sub:hover{
+	background-color: orange;
+}
+
+.but_signup:hover{
+	background-color: orange;
+}
+
+.but_login:hover{
+	background-color: orange;
+}

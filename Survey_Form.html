@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<!--deklaracje-->
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="survey.css">
+		<title>Survey Form</title>
+	</head>
+
+	<body id="main">
+		<!-- Nagłówek strony-->
+		<header>
+			<div class="top">
+				<div class="left-header">
+					<p class="madeby">
+						Page made by Michał Studnicki
+					</p>
+				</div>
+				<div class="right-header">
+						<button class="but_like" type="text">
+								Like
+						</button>
+						<button class="but_sub" type="text">
+								Subscribe
+						</button>
+						<button class="but_signup" type="text">
+								Sign UP
+						</button>
+						<button class="but_login" type="text">
+								Log In
+						</button>
+				</div>
+			</div>
+		</header>
+		<!-- Tytuł -->
+		<section>
+			<div>
+				<h1 class="center-text" id="title">
+					Survey Form
+				</h1>
+			</div>
+
+				<!-- formularz -->
+				<form class="container" id="survey-form">
+					<!-- opis -->
+					<div class="row frame-wrap">
+						<p class="center-text" id="description">
+							Assess how useful is capoeira in your life
+						</p>
+					</div>
+					<!-- imie -->
+					<div class="row">
+						<div class="left-side">
+							<label id="name-label">
+								* Name:
+							</label>
+						</div>
+						<div class="right-side">
+							<input type="text"  id="name" name="name" required placeholder="Enter your name">
+						</div>
+					</div>
+					<!-- email -->
+					<div class="row">
+						<div class="left-side">
+							<label id="email-label">
+								* E-mail:
+							</label>
+						</div>
+						<div class="right-side">
+							<input type="email"id="email" name="email" required placeholder="Enter your e-mail">
+						</div>
+					</div>
+					<!-- numer -->
+					<div class="row">
+						<div class="left-side">
+							<label id="number-label">
+								* Number:
+							</label>
+						</div>
+						<div class="right-side">
+							<input type="number" min="111111111" max="999999999" name="number" id="number" required placeholder="Enter your number">
+						</div>
+					</div>
+					<!-- graduacja -->
+					<div class="row" id="graduation">
+						<div class="left-side ">
+							<label class="dropdown">
+								What is your capoeira graduation?
+							</label>
+						</div>
+					<!-- graduacja prawa -->
+						<div class="right-side" id="dropdown-label">
+							<select class="dropdown" id="dropdown" name="grade">
+								<option disabled value>Select a graduation grade</option>
+								<option>Aluno 1</option>
+								<option>Aluno 2</option>
+								<option>Aluno 3</option>
+								<option>Graduado</option>
+								<option>Formado</option>
+								<option>Estagario 1</option>
+								<option>Estagario 2</option>
+								<option>Professor 1</option>
+								<option>Professor 2</option>
+								<option>Professor 3</option>
+								<option>Contra Mestre</option>
+								<option>Mestre</option>
+							</select>
+						</div>
+					</div>
+				<!-- jak czesto trenujesz -->
+				<div class="row" id="train-dur">
+					<div class="left-side ">
+						<label class="radio-left">
+							How often do you train capoeira?
+						</label>
+					</div>
+					<!-- trening prawa -->
+					<div class="right-side" id="radio-button">
+						<ul>
+							<ol>
+								<input type="radio" value="1" name="radio-buttons">
+								<label>Once per week</label>
+							</ol>
+							<ol>
+								<input type="radio" value="2" name="radio-buttons">
+								<label>Twice per week</label>
+							</ol>
+							<ol>
+								<input type="radio" value="3" name="radio-buttons">
+								<label>Three times in the week</label>
+							</ol>
+							<ol>
+								<input type="radio" value="4" name="radio-buttons">
+								<label>Even more, training at home!</label>
+							</ol>
+							<ol>
+								<input type="radio" value="5" name="radio-buttons">
+								<label>I breathe with capoeira!</label>
+							</ol>
+						</ul>
+					</div>
+				</div>
+				<!-- aspekty -->
+				<div class="row">
+					<div class="left-side">
+						<label>
+							Which aspect is most important for you?
+						</label>
+					</div>
+					<!-- aspekty prawa -->
+					<div class="right-side" id="dropdown">
+						<select class="dropdown" id="dropdown" name="aspect">
+							<option disabled value>Choose aspect</option>
+							<option>Fighting</option>
+							<option>Singing</option>
+							<option>Playing instruments</option>
+							<option>Dancing</option>
+							<option>History</option>
+							<option>Language</option>
+							<option>Acrobatics</option>
+							<option>Movement</option>
+							<option>MLDC on face</option>
+							<option>Talking with handsome brasilian guys</option>
+							<option>Muscules</option>
+							<option>Not drinking water in 36 degree sun during 3 hour training</option>
+							<option>Maculele</option>
+							<option>Others</option>
+						</select>
+					</div>
+				</div>
+				<!-- grupa -->
+				<div class="row">
+					<div class="left-side checkbox">
+						<label>
+							Which group you trained in?
+						</label>
+					</div>
+					<!-- grupa prawa -->
+					<div class="right-side" id="checkbox">
+						<ul>
+							<ol>
+								<input type="checkbox" value="1" name="checkbox-buttons">
+								<label>MUZENZA</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="2" name="checkbox-buttons">
+								<label>ACMB</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="3" name="checkbox-buttons">
+								<label>CCGS</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="4" name="checkbox-buttons">
+								<label>UNICAR</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="5" name="checkbox-buttons">
+								<label>RAIZ</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="6" name="checkbox-buttons">
+								<label>GCB</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="7" name="checkbox-buttons">
+								<label>ARUE</label>
+							</ol>
+							<ol>
+								<input type="checkbox" value="8" name="checkbox-buttons">
+								<label>CAMANGULA</label>
+							</ol>
+						</ul>
+					</div>
+				</div>
+				<!-- komentarz -->
+				<div class="row" id="textbot">
+					<div class="left-side textarea">
+						<label>
+							Write in the label where do you use capoeira outside training hall:
+						</label>
+					</div>
+					<!-- komentarz prawa -->
+					<div class="right-side">
+						<textarea  id="textarea" style="width:400px;height:100px;resize:vertical;" name="comment" required placeholder="Write few words here...">
+						</textarea>
+					</div>
+				</div>
+				<!-- przycisk -->
+				<div class="row">
+					<div class="button">
+						<button type="submit" id="submit" name="submit">
+							Submit
+						</button>
+					</div>
+				</div>
+			</form>
+		</section>
+		<!--stopka-->
+		<footer class="footer">
+			<div>
+				<p>
+					&copy; Michał Studnicki
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
